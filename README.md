@@ -1,61 +1,32 @@
-**Case Study: Healthcare Patient Tracking Analysis using Power BI**
-**Aim**
+**Exp 6 : Perform Data Analysis and Representation on a Map Using Various Map Datasets with Mouse Rollover Effect, User Interaction**
 
-To analyze a healthcare patient tracking dataset using Power BI, perform data preparation and exploratory analysis, create suitable calculations and visualizations, and develop an interactive dashboard to support patient monitoring and operational decision-making.
+**AIM:**
+To analyze data and represent it on a map, using various geographical datasets. Implement interactive visualizations with mouse rollover effects for better user engagement and understanding.
 
-**Case Study**
-A healthcare organization maintains patient tracking information such as patient status, admission and discharge dates, approved days, insurance details, authorization information, and extension requirements.
+**EQUIPMENTS REQUIRED:**
+Python
+Libraries: folium, pandas, geopandas
+Dataset URL: World Cities Dataset
 
-As a data analyst, analyze the given dataset and develop a Power BI dashboard that helps hospital staff understand the current patient situation and identify cases that may require attention.
+**ALGORITHM:**
+1)Load the dataset containing city information (latitude, longitude, and population) using pandas.
+2)Visualize the data on a map using folium.
+3)Add markers for each city on the map, displaying information when the user hovers over a city (mouse rollover effect).
+4)Allow user interaction, such as zooming and panning on the map.
+5)Customize the markers with popup information and use different colors for different city populations.
 
-**Procedure**
-
-**1. Import the Dataset**
-
-Import the given Healthcare Patient Tracking Excel dataset into Power BI.
-
-**2. Data Preparation**
-
-Open Power Query and perform the necessary data-cleaning operations based on the dataset, such as:
-
-Removing unnecessary columns
-Renaming columns
-Correcting data types
-Handling missing or incorrect values
-Filtering unnecessary records
-
-**3. Understand and Analyze the Data**
-
-Explore the available fields and identify important information related to:
-
-    Patient status
-    Admission and discharge
-    Approved days and patient stay
-    Insurance
-    Authorization
-    Extensions
-    Other relevant patient information
-
-**4. Create Required Calculations**
-Create appropriate DAX measures or calculated columns wherever required for the analysis.
+**Program:**
 
 
 
 
-
-**5. Perform Exploratory Analysis**
-
-
-
-**6. Develop an Interactive Dashboard**
-
-
-**7. Identify Insights and Recommendations**
-
-
-
-
-**Output**
-
-**Result**
-Thus, the healthcare patient tracking data was successfully analyzed using Power BI, and an interactive dashboard was developed to identify important patient patterns, cases requiring attention, and operational insights for healthcare management.
+**EXPECTED OUTPUT:**
+The output shoukd be as follows. Add those screenshots
+    Dataset Overview:
+        View the first few records of the dataset printed in the console.
+    
+    Interactive Map:
+        A map is generated and saved as an HTML file, displaying all the cities with markers (circle markers).
+        Each marker is interactive: when you hover over or click on a marker, it will show a popup with the city name and its GDP (in billions).
+    
+    Mouse Rollover Effect:
